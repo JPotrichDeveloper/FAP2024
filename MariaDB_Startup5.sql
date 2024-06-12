@@ -1,0 +1,1 @@
+select nome, cargo from membros
