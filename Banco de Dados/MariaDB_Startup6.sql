@@ -1,1 +1,0 @@
-select descricao from tarefas
