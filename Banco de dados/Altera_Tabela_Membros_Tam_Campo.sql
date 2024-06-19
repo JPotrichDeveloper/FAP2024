@@ -1,0 +1,1 @@
+ALTER TABLE Membros change COLUMN nome nome VARCHAR(50) 
