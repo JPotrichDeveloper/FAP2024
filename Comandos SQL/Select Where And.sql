@@ -1,0 +1,1 @@
+SELECT * FROM membros WHERE id_membro = 4 and genero = "M";

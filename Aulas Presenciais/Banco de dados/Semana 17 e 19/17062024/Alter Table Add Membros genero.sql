@@ -1,0 +1,1 @@
+alter table Membros add genero char(1)

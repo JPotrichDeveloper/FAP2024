@@ -1,0 +1,1 @@
+DELETE FROM membros WHERE membro_id = 1;

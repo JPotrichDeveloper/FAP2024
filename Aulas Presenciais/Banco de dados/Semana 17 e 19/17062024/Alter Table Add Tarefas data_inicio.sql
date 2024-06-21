@@ -1,0 +1,1 @@
+alter table Tarefas add data_inicio date

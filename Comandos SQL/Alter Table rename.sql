@@ -1,0 +1,1 @@
+alter table tarefas rename column membro_id to membro_fk;
