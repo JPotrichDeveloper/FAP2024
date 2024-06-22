@@ -1,0 +1,27 @@
+create database clinica_medica
+
+create table Medico (
+id_Crm int primary key,
+Nome varchar(50),
+Genero char(1),
+Endereco varchar(80),
+Telefone varchar(15),
+Esp_Medica varchar(50)
+)
+
+create table Paciente (
+id_CPF int primary key,
+Nome varchar(50),
+Genero char(1),
+Telefone varchar(15),
+Datanasc date
+)
+
+create table Consulta (
+id_Consulta int primary key,
+Data_Cons date,
+Hora_Cons time,
+Diagnostico varchar(500),
+Rec_Medica varchar(500),
+Observacoes varchar(500)
+)
