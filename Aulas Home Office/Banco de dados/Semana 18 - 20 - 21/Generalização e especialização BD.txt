@@ -1,0 +1,69 @@
+https://consultabd.wordpress.com/2020/07/24/generalizacao-e-especializacao-na-modelagem-de-dados/
+
+DICAS DE ESTUDO, MODELO RELACIONAL
+
+Generalização e Especialização na Modelagem de Dados
+Data: 24 de julho de 2020
+Autor: Consulta BD
+7 Comentários
+Olá galera o/
+
+Na postagem de hoje vou falar um pouco sobre o processo de Generalização e Especialização dentro da modelagem de dados. Se você não sabe o que é modelagem de dados da uma olhada nos links abaixo:
+
+LINKS
+MODELAGEM RELACIONAL
+CARDINALIDADE 1 x 1
+CARDINALIDADE 1 x N ou N x 1
+CARDINALIDADE N x N
+NORMALIZAÇÃO – PARTE 1
+NORMALIZAÇÃO – PARTE 2
+Mais o que que é Generalização ou Especialização no modelo relacional?
+É quando uma(s) entidade(s) pode(m) ser subdividida(s) ou agrupada(s) em virtude da proximidade de suas características (atributos ou colunas).
+
+Obs.: Assemelha-se ao processo de herança da programação orientação a objeto, aonde, você possui uma classe genérica e as classes filhas herdam os atributos da classe pai.
+
+Abaixo temos uma imagem que mostra duas entidades, notem que elas possuem alguns atributos em comum, como por exemplo: nome, sexo, CPF e etc.
+
+
+Exemplo de 2 entidades com alguns atributos em comum.
+Primeiro vamos entender o conceito de generalização .
+É quando duas entidades podem ser agrupadas, em virtude de suas semelhanças (atributos em comum), gerando uma super entidade.
+Ex.: As duas entidades tem em comum os atributos e-mail, endereço, telefone, mídias sociais e etc…
+Agora vamos entender o conceito de especialização.
+É quando uma entidade pode ser subdividida, herdando atributos da entidade genérica e, juntamente com seus atributos específicos, compor a sua lista de atributos.
+Ex: Salário é um atributo que pertence somente a entidade funcionário.
+Para nosso cenário da imagem acima, iremos criar uma tabela genérica que conterá os atributos em comum que ambas possuem e tabelas tabelas especializadas conterão apenas os atributos que de fato pertencem ao seu domínio.
+
+
+Temos dois tipos de Generalização/Especialização: Total e Parcial.
+
+Total: para cada ocorrência da entidade genérica (super entidade) existirá sempre uma ocorrência na entidade especializada.
+Ex: Uma Pessoa sempre será um cliente ou um funcionário.
+Parcial: As ocorrências da entidade genérica não possuem, obrigatoriamente, uma ocorrência na entidade especializada.
+Ex: Num processo seletivo nem todo candidato se torna um funcionário.
+Tanto a generalização quanto a especialização podem ser convertidas de 3 maneiras para o modelo lógico, lembrando que, as três maneiras estão corretas de acordo com as regras da modelagem. Não existe a maneira correta, a que melhor se adequar ao cenário da sua modelagem é a maneira correta.
+
+Criar uma única tabela para toda hierarquia de generalização/especialização.
+Você tem uma única tabela para todos os atributos iguais e específicos das entidades anteriores.
+Criar uma tabela para a entidade genérica e uma tabela para cada entidade especializada.
+Você tem a tabela genérica no exemplo acima Pessoa e as tabelas especializadas no exemplo Cliente e Funcionário.
+As tabelas Funcionário e Cliente recebem uma chave estrangeira da tabela Pessoa.
+Essa é uma das melhores formas (lembrar que, não se aplica a todos os cenários) de se modelar uma generalização e especialização, pois, ao invés de cadastrar dados iguais em diferentes tabelas, você cadastra na genérica e apenas informa a FK na tabela especializada que o registro ficará.
+Lembrando que nesta segunda maneira, você cadastra uma Pessoa e ela pode ser tanto cliente quanto funcionário, assim, evitando cadastrar as mesmas informações em duas tabelas diferentes.
+Particularmente gosto bastante desta segunda maneira.
+Criar uma tabela para cada entidade especializada.
+Você tem apenas as tabelas especializadas com os atributos repetidos.
+Abaixo segue um vídeo de como fazer este processo no BrModelo.
+
+
+É isso galera, foi um post bem curtinho explicando esse processo de generalização e especialização na modelagem de banco de dados.
+
+Eu explico também explico esse processo e outros no curso para Certificação Microsoft MTA Database Fundamentals segue o link do curso na Udemy para quem tiver interesse. >> LINK <<
+
+Espero que tenham gostado da postagem.
+
+Não se esqueçam de avaliar esta postagem através da ESTRELAS abaixo das redes sociais, isso vai me ajudar muito a melhorar as postagens.
+
+Fiquem a vontade para mandar comentários, sugestões, criticas e dúvidas e etc. Esse tipo de feedback, faz com que eu estude mais, aumente o conhecimento e melhore as postagem para vocês.
+
+Até a próxima o/

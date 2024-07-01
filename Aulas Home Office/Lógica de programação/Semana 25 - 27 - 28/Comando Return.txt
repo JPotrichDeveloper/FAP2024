@@ -1,0 +1,53 @@
+https://www.dio.me/articles/desvendando-o-poder-do-return-em-python-uma-jornada-pela-manipulacao-de-funcoes
+
+Funcionamento do return:
+Em Python, o comando return é usado para encerrar a execução de uma função e enviar um valor de volta para o chamador. Quando uma função é chamada e encontra o comando return, ela retorna imediatamente ao local de chamada, levando consigo o valor especificado. Isso permite que o valor seja utilizado ou armazenado para uso posterior no programa.
+
+Exemplos Práticos:
+1 - Função Simples:
+
+Vamos começar com um exemplo básico de uma função que utiliza o return para retornar a soma de dois números.
+
+def somar(a, b):
+resultado = a + b
+return resultado
+
+# Chamada da função e impressão do resultado
+resultado_soma = somar(3, 5)
+print("A soma é:", resultado_soma)
+Neste exemplo, a função somar retorna o resultado da adição de a e b. O valor retornado é então impresso no console.
+
+2 - Decisões com return:
+
+O return pode ser usado para interromper a execução da função antes do final, dependendo de certas condições.
+
+def calcular_desconto(total, cupom):
+  if cupom == "DESC10":
+      desconto = total * 0.1
+      return desconto
+  else:
+      return 0
+
+# Chamada da função e impressão do desconto
+desconto_final = calcular_desconto(100, "DESC10")
+print("Desconto aplicado:", desconto_final)
+Neste caso, se o cupom for "DESC10", a função retorna um desconto de 10%, caso contrário, retorna 0.
+
+3 - Múltiplos Valores com return:
+
+O return também pode ser utilizado para retornar múltiplos valores em forma de tupla.
+
+def calcular_media_notas(notas):
+quantidade = len(notas)
+soma = sum(notas)
+media = soma / quantidade
+return quantidade, soma, media
+
+# Chamada da função e desempacotamento dos valores retornados
+qtd, soma, media = calcular_media_notas([8, 9, 7, 10, 8])
+print(f"Quantidade de notas: {qtd}, Soma: {soma}, Média: {media}")
+Aqui, a função retorna três valores, que são desempacotados na chamada da função para serem utilizados individualmente.
+
+Conclusão:
+
+O comando `return` em Python é uma ferramenta fundamental para o desenvolvedor, permitindo a criação de funções que produzem resultados e valores de maneira eficiente. Compreender como utilizar o `return` aprimora a capacidade de escrever código modular e facilita a manutenção do código. Ao explorar e experimentar com exemplos práticos, os programadores podem aprimorar suas habilidades e utilizar o `return` de maneira eficaz em seus projetos.
