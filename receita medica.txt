@@ -1,0 +1,158 @@
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(1, 'Paracetamol', '500mg', 'Oral', 'Comprimido', '7 dias');
+
+-- Receita 2
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(2, 'Amoxicilina', '500mg', 'Oral', 'Cápsula', '10 dias');
+
+-- Receita 3
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(3, 'Ibuprofeno', '400mg', 'Oral', 'Comprimido', '5 dias');
+
+-- Receita 4
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(4, 'Dipirona', '500mg', 'Oral', 'Comprimido', '3 dias');
+
+-- Receita 5
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(5, 'Omeprazol', '20mg', 'Oral', 'Cápsula', '14 dias');
+
+-- Receita 6
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(6, 'Dexametasona', '2mg', 'Injetável', 'Ampola', '7 dias');
+
+-- Receita 7
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(7, 'Ranitidina', '150mg', 'Oral', 'Comprimido', '10 dias');
+
+-- Receita 8
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(8, 'Insulina', '10 unidades', 'Subcutânea', 'Ampola', 'Diariamente');
+
+-- Receita 9
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(9, 'Losartana', '50mg', 'Oral', 'Comprimido', '30 dias');
+
+-- Receita 10
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(10, 'Levotiroxina', '100mcg', 'Oral', 'Comprimido', 'Indeterminado');
+
+-- Receita 11
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(11, 'Atorvastatina', '20mg', 'Oral', 'Comprimido', '30 dias');
+
+-- Receita 12
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(12, 'Metformina', '850mg', 'Oral', 'Comprimido', 'Indeterminado');
+
+-- Receita 13
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(13, 'Cefalexina', '500mg', 'Oral', 'Cápsula', '7 dias');
+
+-- Receita 14
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(14, 'Loratadina', '10mg', 'Oral', 'Comprimido', '10 dias');
+
+-- Receita 15
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(15, 'Salbutamol', '100mcg', 'Inalatório', 'Aerossol', 'Necessário');
+
+-- Receita 16
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(16, 'Sertralina', '50mg', 'Oral', 'Comprimido', 'Indeterminado');
+
+-- Receita 17
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(17, 'Diazepam', '10mg', 'Oral', 'Comprimido', '15 dias');
+
+-- Receita 18
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(18, 'Morfina', '10mg', 'Subcutânea', 'Ampola', 'Conforme necessidade');
+
+-- Receita 19
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(19, 'Digoxina', '0,25mg', 'Oral', 'Comprimido', 'Indeterminado');
+
+-- Receita 20
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(20, 'Metotrexato', '10mg', 'Oral', 'Comprimido', 'Semanal');
+
+-- Receita 21
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(21, 'Rivotril', '2mg', 'Oral', 'Comprimido', 'Conforme necessidade');
+
+-- Receita 22
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(22, 'Eritromicina', '500mg', 'Oral', 'Cápsula', '7 dias');
+
+-- Receita 23
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(23, 'Tramadol', '50mg', 'Oral', 'Comprimido', 'Conforme necessidade');
+
+-- Receita 24
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(24, 'Levodopa', '250mg', 'Oral', 'Comprimido', 'Diariamente');
+
+-- Receita 25
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(25, 'Metilfenidato', '10mg', 'Oral', 'Comprimido', 'Diariamente');
+
+-- Receita 26
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(26, 'Captopril', '25mg', 'Oral', 'Comprimido', 'Indeterminado');
+
+-- Receita 27
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(27, 'Enalapril', '10mg', 'Oral', 'Comprimido', 'Indeterminado');
+
+-- Receita 28
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(28, 'Furosemida', '40mg', 'Oral', 'Comprimido', 'Diariamente');
+
+-- Receita 29
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(29, 'Clonazepam', '2mg', 'Oral', 'Comprimido', 'Conforme necessidade');
+
+-- Receita 30
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(30, 'Prednisona', '5mg', 'Oral', 'Comprimido', '7 dias');
+
+-- Receita 31
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(31, 'Levozine', '25mg', 'Oral', 'Comprimido', 'Diariamente');
+
+-- Receita 32
+INSERT INTO receita_medica (id_receita_medica, medicacao, dosagem, via_administracao, forma_administracao, tempo_uso)
+VALUES
+(32, 'Budesonida', '32mcg', 'Inalatório', 'Aerossol', 'Diariamente');
