@@ -1,0 +1,40 @@
+//João ----------------------------------------------------------------------------------
+class Funcionarios{
+    nome;
+    rg;
+    cpf;
+    turno;
+    constructor(nome,rg,cpf,turno){
+        this.nome = nome;
+        this.rg = rg;
+        this.cpf = cpf;
+        this.turno = turno;
+    }
+    exibirInfo(){
+        console.log(`Nome do funcionário : ${this.nome}\n Rg: ${this.rg}\n CPF: ${this.cpf}\n Turno:${this.turno}`);
+    }
+
+}
+
+
+class Gerentes extends Funcionarios{
+    departamento;
+    constructor(nome,rg,cpf,turno,departamento){
+        super(nome,rg,cpf,turno)
+        this.departamento = departamento
+    }
+    exibirInfo(){
+        console.log(`Nome do funcionário : ${this.nome}\n Rg: ${this.rg}\n CPF: ${this.cpf}\n Turno:${this.turno} \n Departamento :${this.departamento}`);
+    }
+  
+}
+
+const joao = new Funcionarios('João','999.999-21','111.111.222-33','noite');
+joao.exibirInfo();
+
+
+const gerenteMaria = new Gerentes('Maria','888.888-22','222.222.222-44','noite','Financeiro');
+gerenteMaria.exibirInfo();
+
+
+
