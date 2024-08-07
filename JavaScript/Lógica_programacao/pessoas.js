@@ -30,3 +30,10 @@ class Professor extends Pessoa {
     }
 }
 
+let estudante = new Estudante("Joao Elias", "43", "Masculino", "Backend", "Noturno");
+let professor = new Professor("Thaise", "39", "Feminino", "Backend", "Noturno")
+
+estudante.descricaoEstudante();
+professor.descricaoProfessor();
+
+
