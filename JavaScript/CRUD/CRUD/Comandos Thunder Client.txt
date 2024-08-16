@@ -1,0 +1,33 @@
+para efetuar os testes no Thunder Client no Vscode executar os seguintes comandos a seguir
+
+PARA ATUALIZAR OS DADOS NO BANCO
+
+ROTA
+http://localhost:3000/usuario/atualizar/1
+
+COMANDO
+{
+  "username" : "Joao Elias",
+  "password" : "220581"
+}
+
+utilizar o metodo PUT
+
+BUSCANDO DADOS NO BANCO
+
+http://localhost:3000/usuario/busca/1
+
+utilizar o metodo Post
+
+CADASTRANDO DADOS NO BANCO
+
+http://localhost:3000/usuario/cadastro
+
+COMANDO
+
+{
+  "username" : "Gustavo",
+  "password" : "123456"
+}
+
+Utilizar o metodo post
