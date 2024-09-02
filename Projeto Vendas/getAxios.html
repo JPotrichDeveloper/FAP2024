@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+    <title>Axios Exemplos GET</title>
+</head>
+
+<body>
+    <h1>Get com Axios</h1>
+    <button id="btn_listar">Lista usuários no console</button>
+
+    <h2>Post com Axios</h2>
+
+    <form action="#" method="post" id="formRegisto">
+        <label for="nome_usuario">Username</label>
+        <input type="text" id="nome_usuario" name="nome_usuario" placeholder="Digite um nome de usuário válido"
+            required>
+
+        <label for="senha_usuario">Password</label>
+        <input type="password" id="senha_usuario" name="senha_usuario" placeholder="Digite uma senha válida" required>
+
+        <label for="email_usuario">Email</label>
+        <input type="email" id="email_usuario" name="email_usuario" placeholder="Digite um e-mail válido" required>
+
+        <label for="data_criacao">Data</label>
+        <input type="date" id="data_criacao" name="data_criacao" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <script>
+        const btn = document.getElementById('btn_listar');
+        btn.addEventListener('click', () => {
+            axios.get('http://localhost:3000/usuarios/buscar')
+                .then(response => {
+                    console.log(response);
+                    if (response.status === 200) {
+                        return response.data;
+                    }
+                }).then(dados => {
+                    console.log(dados);
+                });
+        })
+
+        const formRegistro = document.getElementById('formRegisto');
+
+        formRegistro.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const nome_usuario = document.getElementById('nome_usuario').value;
+            const senha_usuario = document.getElementById('senha_usuario').value;
+            const email_usuario = document.getElementById('email_usuario').value;
+            const data_criacao = document.getElementById('data_criacao').value;
+
+            axios.post('http://localhost:3000/usuarios/cadastro', {
+                nome_usuario,
+                senha_usuario,
+                email_usuario,
+                data_criacao
+            }).then(response => {
+                console.log('O Cadastro foi realizado com sucesso:', response.data);
+                alert('O Cadastro foi realizado com sucesso!');
+
+            }).catch(error => {
+                console.error('Erro ao realizar o cadastro:', error);
+                alert('Erro ao realizar o cadastro. Por favor, tente novamente.');
+            });
+        })
+
+    </script>
+</body>
+
+
+</html>

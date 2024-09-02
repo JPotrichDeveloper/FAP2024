@@ -1,0 +1,24 @@
+produtos
+id_produto
+nome_produto
+preco_produto
+categoria_produto
+
+clientes
+id_cliente
+nome_cliente
+e-mail_cliente
+endereco_cliente
+
+create table produtos (
+id_produto int not null primary key auto_increment,
+nome_produto varchar(50),
+preco_produto float,
+categoria_produto varchar(50)
+);
+
+pedidos
+id_pedido
+data_pedido
+produtos_pedido
+cliente_pedido

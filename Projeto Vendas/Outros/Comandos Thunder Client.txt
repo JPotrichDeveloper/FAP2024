@@ -1,0 +1,39 @@
+Para efetuar os testes no Thunder Client, no Vscode, executr os seguintes comandos a seguir.
+
+
+CADASTRANDO DADOS NO BANCO
+
+ROTA - http://localhost:3000/usuarios/cadastro
+Utilize o metodo post
+
+COMANDO
+
+{
+  "nome_usuario" : "Gustavo",
+  "email_usuario" : "Gustavo@gmail.com",
+  "senha_usuario" : "123456",
+  "data_criacao" : "08/29/2024"
+}
+
+BUSCANDO DADOS NO BANCO
+
+ROTA - http://localhost:3000/usuarios/buscar/1
+utilizar o metodo Get
+
+DELETANDO DADOS NO BANCO
+
+ROTA - http://localhost:3000/usuarios/deletar
+Utilize o metodo delete
+
+ATUALIZANDO OS DADOS NO BANCO
+
+ROTA - http://localhost:3000/usuarios/atualizar/1
+Utilize o metodo put
+
+COMANDO
+{
+  "nome_usuario" : "Queillia",
+  "email_usuario" : "Queillia@gmail.com",
+  "senha_usuario" : "123456",
+  "data_criacao" : "2024-08-30 23:15:05"
+}
