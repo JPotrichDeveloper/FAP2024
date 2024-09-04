@@ -1,0 +1,7 @@
+COMANDO PARA ADICIONAR UM ARQUIVO DE CONFIGURAÇÃO
+1 Opção - npx tsc --init no Terminal
+2 Opção - npm tsc --init no Terminal
+
+COMANDO PARA COMPILAR ARQUIVOS TS PARA JS
+1 Opção - npx tsc nome do arquivo
+2 Opção - npm tsc nome do arquivo
