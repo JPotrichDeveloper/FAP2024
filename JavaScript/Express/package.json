@@ -1,5 +1,5 @@
 {
-  "name": "joao-elias",
+  "name": "express",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
     "express": "^4.21.0"
   }

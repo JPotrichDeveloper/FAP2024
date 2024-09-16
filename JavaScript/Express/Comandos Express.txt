@@ -1,0 +1,44 @@
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS\Express> npm install express
+
+added 65 packages, and audited 66 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS\Express> express --v
+express : O termo 'express' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. 
+Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente novamente.       
+No linha:1 caractere:1
++ express --v
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (express:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS\Express> npm init -y        
+Wrote to C:\Users\JOÃO9967\Documents\JOAO ELIAS\Express\package.json:
+
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS\Express> npm install express
+
+added 65 packages, and audited 66 packages in 2s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS\Express> 

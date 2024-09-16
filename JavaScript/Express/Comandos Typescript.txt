@@ -1,0 +1,48 @@
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> npm init -y
+Wrote to C:\Users\JOÃO9967\Documents\JOAO ELIAS\package.json:
+
+{
+  "name": "joao-elias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> npm tsc --init
+Unknown command: "tsc"
+
+To see a list of supported npm commands, run:
+  npm help
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> tsc --init
+
+Created a new tsconfig.json with:                                                                                         
+                                                                                                                     TS   
+  target: es2016
+  module: commonjs
+  strict: true
+  esModuleInterop: true
+  skipLibCheck: true
+  forceConsistentCasingInFileNames: true
+
+
+You can learn more at https://aka.ms/tsconfig
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> npm tsc teste.ts
+Unknown command: "tsc"
+
+To see a list of supported npm commands, run:
+  npm help
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> npm teste.ts
+Unknown command: "teste.ts"
+
+To see a list of supported npm commands, run:
+  npm help
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> tsc teste.ts
+PS C:\Users\JOÃO9967\Documents\JOAO ELIAS> 
